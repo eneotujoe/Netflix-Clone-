@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="app">
+    <div className="App">
       <Helmet>
         <title>Eneotu | Netflix Clone</title>
       </Helmet>
