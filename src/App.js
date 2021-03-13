@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/App.css'
+import Nav from './components/Nav'
+import Banner from './components/Banner'
+import Row from './components/Row'
+import requests from './requests'
+import { Helmet } from "react-helmet"
+import Footer from './components/Footer'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Helmet>
+        <title>Eneotu | Netflix Clone</title>
+      </Helmet>
+      <Nav />
+      <Banner />
+      <Row title='Netflix Originals' fetchUrl={requests.fetchNetflixOriginals} isLargeRow />
+      <Row title='Trending Now' fetchUrl={requests.fetchTrending} />
+      <Row title='Top Rated' fetchUrl={requests.fetchTopRated} />
+      <Row title='Documentaries' fetchUrl={requests.fetchDocumentaries} />
+      <Row title='Popular' fetchUrl={requests.fetchPopular} />
+      <Row title='Horror' fetchUrl={requests.fetchHorror} />
+      <Footer />
     </div>
   );
 }
