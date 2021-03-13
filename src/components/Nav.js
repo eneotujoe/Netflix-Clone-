@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import '../assets/Nav.css';
-import logo from '../assets/img/logo.png';
+import '../styles/Nav.css';
+import logo from '../img/logo.png';
 
 function Nav() {
     const [show, handleShow] = useState(false)

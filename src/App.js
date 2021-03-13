@@ -1,4 +1,4 @@
-import './assets/App.css'
+import './styles/App.css'
 import Nav from './components/Nav'
 import Banner from './components/Banner'
 import Row from './components/Row'
