@@ -4,7 +4,7 @@ function Footer() {
     
     return (
         <div className='footer'>
-            <p>&copy; { new Date().getFullYear() } - Netflix Clone</p>
+            <p>&copy; { new Date().getFullYear() } - Eneotu Joe</p>
         </div>
     )
 }
