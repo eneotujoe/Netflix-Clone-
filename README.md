@@ -1,6 +1,8 @@
 # This is Netflix Clone, Created with ReactJS.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), following this [tutorial](https://www.youtube.com/watch?v=XtMThy8QKqU&t=10530s). Credit: [Clever Programmer](https://www.youtube.com/c/CleverProgrammer/featured).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), following this [tutorial](https://www.youtube.com/watch?v=XtMThy8QKqU&t=10530s). 
+
+## Credit: [Clever Programmer](https://www.youtube.com/c/CleverProgrammer/featured).
 
 ## Available Scripts
 
